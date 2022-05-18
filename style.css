@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: rgb(90, 87, 87);
+    display: flex;
+    justify-content: space-between;
+}
+nav > .logo, .navLinks{
+    margin: 16px;
+}
+nav > .logo > h3{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+nav > .navLinks > ul > li{
+    display: inline-block;
+    padding: 16px;
+    font-size: 20px;
+}
+nav > .navLinks > ul > li, a{
+    color: white;
+    text-decoration: none;
+}
+#sectHeader{
+    background-image: url(/images/nairobi.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sectHeader > .header{
+    text-align: center;
+    color: black;
+}
+#sectHeader > .header > h3{
+    font-size: 100px;
+}
+#sectHeader > .header > p{
+    color: orange;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.destination h3{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+}
+.destination p{
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+.destination .cities{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cities div{
+    padding: 10px;
+    width: 800px;
+    overflow: hidden;
+}
+.cities img{
+    height: 300px;
+}
+#contacts{
+    display: flex;
+    background-color: #737335;
+    height: 40vh;
+}
+#contacts  h3{
+    margin-bottom: 26px;
+    color: #fff;
+}
+#contacts > .column{
+    margin-top: 40px;
+    padding: 10px;
+}
+#contacts > .column p{
+    font-size: 18px;
+}
+#contacts > .column > p, i{
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    height: 15vh;
+}
+.footer{
+    color: white;
+    font-size: 20px;
+}
